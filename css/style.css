@@ -1,0 +1,556 @@
+*{
+    margin: 0px;
+}
+
+body{   
+    font-family: arial,sans-;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e172f;
+}
+
+nav button{
+    border: none;
+    background: linear-gradient(to right, #883fd5, #0c7bd5);
+    height: 35px;
+    width: 85px;
+    border-radius: 3px;
+    color: white;
+}
+
+nav ul li {
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+nav ul li a{
+    color: #807b8a;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.parte1{
+    display: flex;
+    background-color: #1e172f;
+    height: 700px;
+}
+
+.derecha{
+    background-image: url(../images/hojas.jpg);
+    background-size: cover;
+    width: 50%;
+    position: relative;
+ 
+    
+}
+
+
+.izquierdo{
+    display: flex;
+    
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+    color: white;
+   
+}
+.todo{
+    width: 500px;
+}
+.m2{
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    width: 30%;
+
+}
+
+h1{
+    display: flex;
+    font-size:80px;
+}
+
+.built{
+    font-size: 25px;
+  
+    padding-top: 30px;
+}
+
+.botones{
+    width: 305px;
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#dow{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(189, 76, 155);
+    font-size: 15px;
+}
+
+#ft{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 15px;
+    color: white;
+    background-color: transparent; 
+}
+
+
+.parte2{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    justify-content: space-evenly;
+}
+
+.parte2 p{
+    width: 500px;
+    align-self: flex-end;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    color: rgb(189, 76, 155);
+}
+
+.pc{
+    display: flex;
+    width: 30%;
+}
+
+.alpha{
+    text-align: left;
+}
+
+.alpha ul li{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.parte3{
+    background-color: #1e172f;
+}
+
+h3{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+.last{
+    color: white;
+    text-align: center;
+    width: 800px;
+    font-size: 20px;
+}
+
+.hoja{
+    color: rgb(204, 15, 163);
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.cont1{
+    background-color: white;
+    align-items: center;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    /*
+    margin: 15px 0px 0px 15px;
+    */
+}
+
+h5{
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.cont1 ul li {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.cont1 ul{
+padding: 25px;
+}
+
+.lastTxt{
+    padding: 20px;
+}
+
+.buttonLast{
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 2.5px;
+}
+
+.cont1 button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, #eb61a8, #f31c89);
+    color: white;
+}
+
+.cont2{
+    background-color: white;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    /*
+    margin: 15px 0px 0px 15px;
+    */
+}
+
+.nube{
+    color: #1e172f;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.cont2 ul li {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.cont2 ul{
+    padding: 25px;
+    }
+
+.cont2 button{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e172f;
+    color: white;
+}
+
+.cont3{
+    background-color: white;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    /*
+    margin: 15px 0px 0px 15px;
+    */
+}
+
+.maleta{
+    color: #1e172f;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.cont3 ul li {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.cont3 ul{
+    padding: 25px;
+    }
+
+.cont3 button{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e172f;
+    color: white;
+}
+    
+.padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px;
+    flex-wrap: wrap;
+}
+
+
+footer{
+    display: flex;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+
+p strong{
+    color: #f31c89;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes ul li img{
+    width: 25px;
+    height : 25px;
+}
+
+.redes ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 220px;
+}
+
+.redes ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.juntos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    
+    body{
+        width: 100%;   
+        height: 100%; 
+    }
+
+    .izquierdo{
+        width: 950px;
+    }
+    
+    .derecha div{
+        width:500px;
+    }
+
+    .m2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    body{
+        width: 100%;
+    }
+    
+    .parte1{
+        background-image: url(/images/hojas.jpg);
+        max-width: 100%;
+    }
+    .izquierdo{
+        background:none;
+        width: 730px;  
+    }
+    .derecha{
+        display: none; 
+    }
+    .parte2{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    body{
+
+        width: 100%;
+    }
+    .izquierdo{
+        width: 630px;  
+    }
+    .parte2 div{
+       padding-left: 200px;
+    }
+    .pc{
+        display: none;
+    }
+    .last{
+        width: 500px;
+        text-align: center;
+    }
+    .padre{
+        margin-bottom: 30px;
+    }
+
+    ul{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 480px){
+    body{
+        width: 100%;
+    }
+    .last{
+        font-size: 15px;
+        width: 430px;
+    }
+    nav{
+    flex-wrap: wrap; 
+    height: 150px;
+    }
+  
+    nav ul li a{
+        padding: 5px
+    }
+    .izquierdo{
+        align-items: center;
+        border: 2px black solid;
+    }
+
+    .txt{
+        float: left;
+        padding-right: 200px;
+    }
+    .parte2 p{
+        width: 450px;
+
+    }
+    .parte2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .alpha p{
+        font-size: 15px;
+    }
+    .parte3 h3{
+    padding: 9px;
+    }
+    .last{
+        height: 130px;
+    }
+    footer{
+        margin: 10px;
+    }
+    ul{
+        padding-left: 0px;
+    }
+}@media screen and (max-width: 1200px) {   
+    body{
+        width: 100%;   
+        height: 100%; 
+    }
+    .izquierdo{
+        width: 950px;
+    }
+    .derecha div{
+        width:500px;
+    }
+}
+@media screen and (max-width: 992px){
+    .parte1{
+        background-image: url(/examen/images/hojas.jpg);
+        max-width: 100%;
+    }
+    .izquierdo{
+        background:none;
+        width: 730px;  
+    }
+    .derecha{
+        display: none; 
+    }
+    .parte2{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        height: cover;
+    }
+    .izquierdo{
+        width: 630px;  
+    }
+    .pc{
+        display: none;
+    }
+    .parte2{
+        width: 100%;
+        margin-top: 20px;
+        height: 330px;
+    }
+    .padre{
+        margin-bottom: 30px;
+    }
+    ul{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 480px){
+    body{
+        width: 500px;   
+    }
+    nav{
+    flex-wrap: wrap; 
+    height: 150px;
+    }
+    nav ul li a{
+        padding: 5px
+    }
+    .parte3 h3 {
+    padding: 9px;
+    }
+    .last{
+        height: 130px;
+    }
+    .redes{
+        
+    }
+}
+
+
+
+
+
+
+
+
